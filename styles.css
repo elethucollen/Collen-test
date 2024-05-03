@@ -1,0 +1,88 @@
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #61122f;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0px;
+	border: 0px;
+	height: 70px;
+	width: 100%;
+}
+
+#logo-text {
+	font-size: 30px;
+	float: left;
+	line-height: 80px;
+	font-weight: bold;
+	color: #333;
+	width: 150px;
+	height: 150px;
+	margin-left: 0px;
+}
+
+.navbar-nav.navbar-right {
+	float: right; /* Float the navbar to the right */
+}
+
+.navbar-nav.navbar-right li {
+	margin-left: 10px; /* Add some spacing between menu items */
+}
+
+#our-menu h2 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-family: poppins;
+	text-decoration: none;
+	padding: none;
+}
+
+.columns {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: 5px 0;
+}
+
+p {
+	flex: 1;
+	border: 1px solid #566573;
+	height: 1100px;
+	width: 1000px;
+	margin: 10px;
+	padding: 10px;
+	background: #85929E;
+	transition: 0.3s; 
+
+}
+
+* {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	font-family: "futura md bt";
+	list-style: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #951C49;
+	text-align: center;
+
+}
+#nav-list a:hover{
+	background: #E7E7E7;
+}
+#nav-list a span{
+	font-size: 1.8em;
+}
+.glyphicon{
+	font-size: 30px;
+	color: #61122F;
+}
+   
